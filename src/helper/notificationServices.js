@@ -38,10 +38,6 @@ export const notificationListener = async() =>{
         );
           console.log("backgrund state",remoteMessage.notification)  
       });
-      
-      messaging().onMessage((remoteMessage)=>{
-        console.log("handle in foreground",remoteMessage)
-      })
       // Check whether an initial notification is available
       messaging()
         .getInitialNotification()

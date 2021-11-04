@@ -1,6 +1,7 @@
 //import liraries
 import React, { useEffect } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import ForegroundHandler from './src/helper/ForegroundHandler';
 import { requestUserPermission, notificationListener } from './src/helper/notificationServices';
 
 
@@ -14,6 +15,7 @@ const App = () => {
 
   return (
     <View style={styles.container}>
+      <ForegroundHandler />
       <Text>App</Text>
     </View>
   );

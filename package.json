@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.9",
+    "@react-native-community/push-notification-ios": "^1.10.1",
     "@react-native-firebase/app": "^12.9.2",
     "@react-native-firebase/messaging": "^12.9.2",
     "react": "17.0.2",
-    "react-native": "0.66.1"
+    "react-native": "0.66.1",
+    "react-native-push-notification": "^8.1.1"
   },
   "devDependencies": {
     "@babel/core": "7.15.8",
